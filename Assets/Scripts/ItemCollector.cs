@@ -1,8 +1,13 @@
 using UnityEngine;
+using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
     int coins = 0;
+
+    [SerializeField] TMP_Text coinsText;
+
+    [SerializeField] AudioSource collectionSound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,8 +16,8 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(other.gameObject);
             coins++;
-            Debug.Log("Coins: " + coins);
+            coinsText.text = "Coins: " + coins;
+            collectionSound.Play();
         }
     }
 }
-// ep 7 timestamp: 20:31 of 31:08

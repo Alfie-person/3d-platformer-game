@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
+    [SerializeField] AudioSource deathSound;
+
     bool dead = false;
 
 
@@ -10,9 +12,6 @@ public class PlayerLife : MonoBehaviour
     {
         if (transform.position.y < -4f && !dead)
         {
-            GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<Rigidbody>().isKinematic = true;
-            GetComponent<PlayerMovement>().enabled = false;
             Die();
         }
     }
@@ -21,6 +20,9 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy Body"))
         {
+            GetComponent<MeshRenderer>().enabled = false;
+            GetComponent<Rigidbody>().isKinematic = true;
+            GetComponent<PlayerMovement>().enabled = false;
             Die();
         }
     }
@@ -29,6 +31,7 @@ public class PlayerLife : MonoBehaviour
     {
         Invoke(nameof(ReloadLevel), 1.3f);
         dead = true;
+        deathSound.Play();
     }
 
     void ReloadLevel()
