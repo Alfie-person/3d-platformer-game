@@ -11,20 +11,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask ground;
 
     [SerializeField] AudioSource jumpSound;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+         float horizontalInput = Input.GetAxis("Horizontal");
+         float verticalInput = Input.GetAxis("Vertical");
 
-        rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
+         rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -45,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             Destroy(collision.transform.parent.gameObject);
         }
     }
-    bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics.CheckSphere(groundCheck.position, .1f, ground);
     }
