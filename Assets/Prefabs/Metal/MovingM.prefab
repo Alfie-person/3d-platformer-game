@@ -40,6 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4293093054490796427}
+  - component: {fileID: 4280773314338483812}
   m_Layer: 0
   m_Name: MovingM
   m_TagString: Untagged
@@ -65,6 +66,18 @@ Transform:
   - {fileID: 438999750744784060}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4280773314338483812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5844595108285670778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634cb458c039ba4458205d92ac90b979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StickyPlatform
 --- !u!1 &8724070197903319790
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,6 +122,7 @@ GameObject:
   - component: {fileID: 7942414307647228622}
   - component: {fileID: 1042263638052166342}
   - component: {fileID: 7751766450594685713}
+  - component: {fileID: 1541785167802209030}
   m_Layer: 6
   m_Name: MFleshFloor
   m_TagString: Untagged
@@ -225,3 +239,15 @@ MonoBehaviour:
   - {fileID: 8724070197903319790}
   - {fileID: 3475657384935590145}
   speed: 1
+--- !u!114 &1541785167802209030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8827318974227958024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634cb458c039ba4458205d92ac90b979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StickyPlatform
