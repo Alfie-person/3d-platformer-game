@@ -25,6 +25,14 @@ public class PlayerLife : MonoBehaviour
             GetComponent<PlayerMovement>().enabled = false;
             Die();
         }
+
+        if (collision.gameObject.CompareTag("Acid"))
+        {
+            GetComponent<MeshRenderer>().enabled = false;
+            GetComponent<Rigidbody>().isKinematic = true;
+            GetComponent<PlayerMovement>().enabled = false;
+            Die();
+        }
     }
 
     void Die()

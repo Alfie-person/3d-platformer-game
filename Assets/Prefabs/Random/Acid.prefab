@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7942414307647228622}
   - component: {fileID: 1042263638052166342}
   m_Layer: 6
-  m_Name: FleshFloor 2
-  m_TagString: Untagged
+  m_Name: Acid
+  m_TagString: Acid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,4 +111,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 3.5}
