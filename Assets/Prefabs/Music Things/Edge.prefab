@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7942414307647228622}
   - component: {fileID: 1042263638052166342}
   m_Layer: 6
-  m_Name: FleshFloor 2
+  m_Name: Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
