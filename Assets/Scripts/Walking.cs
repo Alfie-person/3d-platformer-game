@@ -36,7 +36,7 @@ public class Walking : MonoBehaviour
     void PlayFootstepSoundL(AudioClip audio)
     {
         AudioSource.pitch = Random.Range(0.8f, 1.1f);
-        AudioSource.PlayOneShot(audio)
+        AudioSource.PlayOneShot(audio);
     }
     
 }
