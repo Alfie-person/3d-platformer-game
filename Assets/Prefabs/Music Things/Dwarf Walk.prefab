@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5792558509035647937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.21381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.21381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10.21381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.288
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8460793209488387726, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a96ca0f994a7e141b194c8264e1e174, type: 2}
+    - target: {fileID: 919132149155446097, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      propertyPath: m_Name
+      value: Dwarf Walk
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8280099718299110079}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3010100094020458873}
+  m_SourcePrefab: {fileID: 100100000, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+--- !u!1 &6674937832629423760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e23e9608e11749447a4f48012aa192f5, type: 3}
+  m_PrefabInstance: {fileID: 5792558509035647937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8280099718299110079
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674937832629423760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 75eb9391390d64347b76d974b03cb9af, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3010100094020458873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674937832629423760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf29519c08887ed4bbef2dde64527bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
