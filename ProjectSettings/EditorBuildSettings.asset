@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PostTutMap.unity
     guid: 11fefc89f80c98f468de1958c8fbdd9d
   - enabled: 1
+    path: Assets/Scenes/LV1.unity
+    guid: 9a1a09ed8b95ca94ea6900e91f1f4c56
+  - enabled: 1
     path: Assets/Scenes/End Scene.unity
     guid: 1448fa7d713d8db46a7b9c28e1fb4091
   m_configObjects:
