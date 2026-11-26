@@ -9,21 +9,27 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
-
+    Animator anim;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+
+        anim = GetComponentInChildren<Animator>();
     }
     void Update()
     {
-         float horizontalInput = Input.GetAxis("Horizontal");
-         float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-         rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
+        rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
+
+        bool moving = horizontalInput != 0 || verticalInput != 0;
+        anim.SetBool("isRunning", moving && IsGrounded());
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             Jump();
+            anim.SetTrigger("Jump");
         }
     }
 
