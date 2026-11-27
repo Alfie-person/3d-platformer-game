@@ -9,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
+
+    [SerializeField] AudioSource jumpSound;
+    [SerializeField] AudioSource hDeath;
+
     Animator anim;
     void Start()
     {
@@ -36,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
     void Jump()
     {
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
+        jumpSound.Play();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -43,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy Head"))
         {
             Destroy(collision.transform.parent.gameObject);
+            hDeath.Play();
         }
     }
     public bool IsGrounded()
