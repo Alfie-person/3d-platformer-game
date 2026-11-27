@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 100ecee3b12aad64aa36abd388f172f3
+guid: cf6447c67c27f0345b5678d263af4e30
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
@@ -32,11 +32,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Dwarf Walk
+      name: Walking
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 33
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -341,18 +341,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: CamoForGame(Clone)
+    - name: CamoForGame (1)(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: pCube2
-      parentName: CamoForGame(Clone)
+      parentName: CamoForGame (1)(Clone)
       position: {x: -0, y: 0.107426964, z: -0.0012757445}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 2.0533333, y: 2.5935528, z: 1.4666667}
     - name: mixamorig:Hips
-      parentName: CamoForGame(Clone)
+      parentName: CamoForGame (1)(Clone)
       position: {x: -0.00000002989068, y: 0.105963826, z: -0.0019947628}
       rotation: {x: -0.00000005191583, y: -0.00000024561166, z: 0.000006644423, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -528,8 +528,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 11496ee522f731f4bbabd735fb6864f5,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e26153c6ea92aa045b06ede84dba7a22, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1

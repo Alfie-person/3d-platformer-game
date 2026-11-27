@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09988ef781947d847bf1f127e79e46c3
+guid: afd638c05285da04d9cc436e0c9caa5e
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
@@ -30,36 +30,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Dwarf Idle
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 200
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -341,18 +312,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: CamoForGame(Clone)
+    - name: CamoForGame (1)(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: pCube2
-      parentName: CamoForGame(Clone)
+      parentName: CamoForGame (1)(Clone)
       position: {x: -0, y: 0.107426964, z: -0.0012757445}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 2.0533333, y: 2.5935528, z: 1.4666667}
     - name: mixamorig:Hips
-      parentName: CamoForGame(Clone)
+      parentName: CamoForGame (1)(Clone)
       position: {x: -0.00000002989068, y: 0.105963826, z: -0.0019947628}
       rotation: {x: -0.00000005191583, y: -0.00000024561166, z: 0.000006644423, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -528,8 +499,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 11496ee522f731f4bbabd735fb6864f5,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e26153c6ea92aa045b06ede84dba7a22, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
